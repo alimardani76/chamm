@@ -53,7 +53,11 @@ saved blocked DDEC6–Bader fold-0 two-hop model replayed on 283,027 held-out
 atoms with maximum prediction difference zero. This used the original model
 runtime; no fresh training or full-model environment installation is claimed.
 The self-contained Overleaf ZIP was separately extracted and both documents
-compiled (14 main pages and 10 SI pages). The publisher archive's size and
+compiled. Final expanded captions and vector atlas layout give 14 main pages
+and 11 SI pages. All ten PDF masters contain no raster images, and all ten
+SVG exports retain editable text without embedded raster images. Thirty
+export hashes reconcile. All 20 original scientific Python sources are
+byte-identical to the production originals. The publisher archive's size and
 MD5 passed; live publisher metadata were retrieved, while a fresh Figshare
 payload-prefix request timed out. The same verified source archive is
 included in the production deposit, so this is not a missing input.
