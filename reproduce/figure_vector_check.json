@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "Figure_01_charge_landscape",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 37
+    },
+    {
+      "figure": "Figure_02_conditional_evidence",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 72
+    },
+    {
+      "figure": "Figure_03_chemical_contrasts",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 66
+    },
+    {
+      "figure": "Figure_04_population_limits",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 25
+    },
+    {
+      "figure": "Figure_05_connectivity_limits",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 44
+    },
+    {
+      "figure": "Figure_S01_calibration",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 55
+    },
+    {
+      "figure": "Figure_S02_estimands",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 24
+    },
+    {
+      "figure": "Figure_S03_folds",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 30
+    },
+    {
+      "figure": "Figure_S04_atlas",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 131
+    },
+    {
+      "figure": "Figure_S05_cutoff_contrasts",
+      "pages": 1,
+      "raster_images": 0,
+      "svg_has_raster": false,
+      "svg_text_nodes": 54
+    }
+  ],
+  "output_hashes_checked": 30
+}

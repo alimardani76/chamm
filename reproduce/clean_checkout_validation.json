@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "model_summary_rows": 1320,
+  "increment_rows": 1584,
+  "headline_contrast_rows": 180,
+  "atlas_rows": 5910,
+  "max_metric_error": 9.996344030316351e-17,
+  "max_principal_bootstrap_error": 4.510281037539698e-16,
+  "max_contrast_mean_error": 1.6653345369377348e-16,
+  "max_atlas_mean_error": 8.881784197001252e-16,
+  "blocked_component_leakage": 0,
+  "training_test_overlap": 0,
+  "original_training_samples_exact": true,
+  "note": "reaggregates compact numerical inputs; full model regeneration/target checks remain documented separately",
+  "source_commit": "9a9ce7fa05b2c5fe75ed0aeb7be78186e440ed73",
+  "figure_pipeline": "PASS: all ten PDF/SVG/400-dpi PNG figure triplets from isolated installed environment",
+  "tables": "PASS: generated main and SI tables",
+  "manuscripts": "PASS: both clean-checkout PDFs compiled without unresolved references or overflow",
+  "production_deposit": "PASS: archive SHA256 and all 28,458 extracted hashes; representative full-input audit and replay passed",
+  "full_refit": "Not run or claimed"
+}

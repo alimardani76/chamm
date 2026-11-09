@@ -1,0 +1,10 @@
+{
+  "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "matplotlib": "3.10.5",
+    "pyarrow": "21.0.0"
+  },
+  "scope": "Freshly created isolated virtual environment; independently installed wheels; all ten figures and compact numerical verifier executed successfully."
+}

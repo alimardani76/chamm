@@ -1,6 +1,6 @@
 """Fetch the published production deposit, verify SHA256, and safely unpack it."""
 from pathlib import Path
-import argparse,hashlib,json,urllib.request,zipfile
+import argparse,hashlib,json,urllib.request,zipfile,time
 ROOT=Path(__file__).resolve().parents[1]
 def sha(p):
  h=hashlib.sha256()
@@ -13,8 +13,19 @@ def main():
  archive.parent.mkdir(exist_ok=True)
  if not archive.exists():
   part=archive.with_suffix('.partial')
-  with urllib.request.urlopen(m['url'],timeout=120) as src,part.open('wb') as dst:
-   while b:=src.read(8*1024*1024):dst.write(b)
+  for attempt in range(4):
+   try:
+    offset=part.stat().st_size if part.exists() else 0
+    req=urllib.request.Request(m['url'],headers={'Range':f'bytes={offset}-'} if offset else {})
+    with urllib.request.urlopen(req,timeout=120) as src:
+     append=offset>0 and src.status==206
+     with part.open('ab' if append else 'wb') as dst:
+      while b:=src.read(8*1024*1024):dst.write(b)
+    assert part.stat().st_size==m['bytes'],'Incomplete download'
+    break
+   except Exception:
+    if attempt==3:raise
+    time.sleep(2)
   part.replace(archive)
  assert archive.stat().st_size==m['bytes'] and sha(archive)==m['sha256'],'Deposit integrity failure'
  if not a.verify_only:

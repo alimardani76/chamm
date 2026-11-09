@@ -43,7 +43,7 @@ The element residual mean is a recentering comparator. The flexible charge-only 
 
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{figures/Figure_S01_calibration.pdf}
-\caption{Earlier affine and 12-bin piecewise charge-mapping diagnostics for carbon and oxygen in the original structure folds. Points are saved decile summaries against the source charge. These illustrate calibration curvature before the stronger flexible charge-only residual control; they are not predictions of the final conditional structural model.}
+\caption{Earlier affine and 12-bin piecewise charge-mapping diagnostics for carbon and oxygen in the original structure folds. Points are atom-weighted means in source-charge deciles of the pooled held-out atoms; bin counts and represented structures are saved in the plotting input. No uncertainty intervals are plotted. These illustrate calibration curvature before the stronger flexible charge-only residual control; they are not predictions of the final conditional structural model.}
 \end{figure}
 
 \subsection{Sampling and fixed tree settings}
@@ -60,11 +60,11 @@ For atom weighting, absolute errors are pooled over atoms. For structure balanci
 
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{figures/Figure_S02_estimands.pdf}
-\caption{Atom-weighted and structure-balanced MAE for the three nested conditional tree models under identifier/composition blocking. The two summaries weight the same held-out atoms differently. Comparisons should retain their declared population and weighting rather than mix the estimands.}
+\caption{Atom-weighted and structure-balanced MAE for the three nested conditional tree models under identifier/composition blocking. The two summaries weight the same 1,420,532 held-out atoms in 9,171 structures differently; points are estimates without plotted intervals. Comparisons should retain their declared population and weighting rather than mix the estimands.}
 \end{figure}
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{figures/Figure_S03_folds.pdf}
-\caption{All-atom gain of the two-hop model over the flexible charge-only model in each of the five held-out folds. Positive gain is retained for each charge pair in both splitting schemes. Connecting lines organize fold-specific values and do not denote a temporal trajectory or an uncertainty interval.}
+\caption{All-atom gain of the two-hop model over the flexible charge-only model in each of the five held-out folds, covering all 9,171 structures and 1,420,532 atoms. Positive gain is retained for each charge pair in both splitting schemes. Connecting lines organize fold-specific values and do not denote a temporal trajectory or an uncertainty interval.}
 \end{figure}
 
 \section{Environment definitions and atlas quantities}
@@ -76,7 +76,7 @@ For a paired contrast, the two environment means are subtracted within each stru
 
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{figures/Figure_S04_atlas.pdf}
-\caption{Selected nonmetal environments from the compact blocked atlas. Signed departure, absolute departure, and within-structure/environment residual SD have separate color scales in e. Numbers are structure-balanced means. These descriptive quantities are neither charge-scheme accuracy scores nor calibrated physical uncertainty. Complete support and ambiguity columns are included in the accompanying CSV; no support filtering beyond the declared compact-atlas rule is introduced here.}
+\caption{Nonmetal environments after the flexible charge-only correction under identifier/composition blocking. Entries have at least 30 represented structures and 30 components; the represented population varies by environment. Signed departure, absolute departure, and within-structure/environment residual SD have separate color scales in e. Numbers are structure-balanced means without plotted uncertainty intervals. These descriptive quantities are neither charge-scheme accuracy scores nor calibrated physical uncertainty. Complete support and ambiguity columns are included in the accompanying CSV; no support filtering beyond the declared compact-atlas rule is introduced here.}
 \end{figure}
 
 \section{Finite graph sensitivity}
@@ -90,7 +90,7 @@ The earlier metal graph diagnostic applies alternative graphs to fixed, earlier 
 
 \begin{figure}[!htbp]\centering
 \includegraphics[width=\textwidth]{figures/Figure_S05_cutoff_contrasts.pdf}
-\caption{Signed and absolute calibrated-departure contrasts on common paired structures in the fixed graph subset. Three nonmetal cutoff scales are shown at vertically offset positions; effects and intervals coincide where assignments are unchanged. Charge-only residuals and accepted metal edges are held fixed. Error bars are saved pointwise 95\% structure-bootstrap intervals. Small paired populations limit some contrast-specific conclusions.}\label{fig:si-cutoff}
+\caption{Signed and absolute calibrated-departure contrasts on common paired structures in the fixed graph subset. Three nonmetal cutoff scales are shown at vertically offset positions; effects and intervals coincide where assignments are unchanged. Original-fold flexible charge-only residuals and accepted metal edges are held fixed. Error bars are saved pointwise 95\% structure-bootstrap intervals. Small paired populations limit some contrast-specific conclusions.}\label{fig:si-cutoff}
 \end{figure}
 
 \section{Reproduction scope and source inventory}

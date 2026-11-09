@@ -1950,7 +1950,7 @@
     "bytes": 578,
     "sha256": "0f04b6abc0f6a8b5f94adf0b968e01691dd49cb32230ec5ff03d7e501ebc3755",
     "verified": true,
-    "location": "git"
+    "location": "production-release.zip"
   },
   {
     "path": "results/closeout_v1/original/calibration_fold0_cm5_bader.csv",

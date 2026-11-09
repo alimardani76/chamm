@@ -36,8 +36,27 @@ The full-input audit replays three accepted-descriptor structures and one
 saved model; it does not retrain models. An end-to-end refit, a whole-cohort
 graph rebuild, and a portable full-model installation lock are not claimed.
 Original observed dependencies remain distinct from the clean figure
-environment. Final clean-checkout, retrieval, replay and CI results are
-recorded after the published commit is verified.
+environment.
+
+The first public main commit, `9a9ce7fa05b2c5fe75ed0aeb7be78186e440ed73`,
+was cloned into a clean checkout. All ten figures, both tables, the compact
+verifier and both PDF builds passed in that checkout. An independently
+installed Python 3.13 figure environment uses NumPy 2.2.6, pandas 2.3.2,
+Matplotlib 3.10.5 and PyArrow 21.0.0; its complete installed package list is
+recorded. GitHub workflow run 42710667105 passed at that commit.
+
+The production deposit was extracted and all 28,458 file hashes verified in
+the clean checkout. The full-input audit passed on all 1,420,532 atom keys
+and three signed targets. Accepted descriptors for qmof-03a39a4,
+qmof-04f3a5d and qmof-05602fe replayed with maximum difference zero. The
+saved blocked DDEC6–Bader fold-0 two-hop model replayed on 283,027 held-out
+atoms with maximum prediction difference zero. This used the original model
+runtime; no fresh training or full-model environment installation is claimed.
+The self-contained Overleaf ZIP was separately extracted and both documents
+compiled (14 main pages and 10 SI pages). The publisher archive's size and
+MD5 passed; live publisher metadata were retrieved, while a fresh Figshare
+payload-prefix request timed out. The same verified source archive is
+included in the production deposit, so this is not a missing input.
 
 Remaining author decisions: journal and journal-specific format; confirmation
 of supplied affiliations, correspondence, equal contribution and conflicts

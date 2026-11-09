@@ -1,10 +1,10 @@
 """Rebuild every manuscript panel from frozen closeout CSVs; no model fitting.
 
-Run from any directory: python path/to/plots/source/make_figures.py
+Run from any directory: python path/to/figures/source/make_figures.py
 PDF is the Overleaf master; SVG is editable; PNG is a 400-dpi preview.
 """
 from pathlib import Path
-import json
+import json, hashlib, sys, importlib.metadata
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -240,14 +240,17 @@ def supplement():
     fig,axs=plt.subplots(1,3,figsize=(7.4,5.0),sharey=True)
     for j,(q,title,cmap) in enumerate([('calibrated_signed','Signed departure','RdBu_r'),('calibrated_absolute','Absolute departure','YlGnBu'),('residual_sd','Within-environment spread','YlGnBu')]):
         ax=axs[j];mat=atlas[atlas.environment.isin(envs)].pivot(index='environment',columns='pair',values='mean_structure_'+q).reindex(index=envs,columns=PAIRS)
-        lim=np.abs(mat.to_numpy()).max();im=ax.imshow(mat,cmap=cmap,vmin=-lim if j==0 else 0,vmax=lim,aspect='auto')
+        lim=np.abs(mat.to_numpy()).max()
+        im=ax.pcolormesh(np.arange(4)-.5,np.arange(len(envs)+1)-.5,mat.to_numpy(),cmap=cmap,vmin=-lim if j==0 else 0,vmax=lim,shading='flat')
+        ax.set_ylim(len(envs)-.5,-.5);ax.set_xlim(-.5,2.5)
         for y in range(len(envs)):
             for x in range(3):
                 v=mat.iloc[y,x];ax.text(x,y,f'{v:.3f}',ha='center',va='center',fontsize=7,color='white' if (abs(v)>.6*lim if j==0 else v>.5*lim) else '#20262C')
         ax.set(title=title,xticks=range(3),xticklabels=['DDEC6–CM5','DDEC6–Bader','CM5–Bader'])
         ax.tick_params(axis='x',rotation=50)
         if j==0:ax.set_yticks(range(len(envs)),envs)
-        fig.colorbar(im,ax=ax,orientation='horizontal',fraction=.05,pad=.16,label='e');panel(ax,chr(97+j))
+        cb=fig.colorbar(im,ax=ax,orientation='horizontal',fraction=.05,pad=.16,label='e')
+        cb.solids.set_rasterized(False);panel(ax,chr(97+j))
     save(fig,'Figure_S04_atlas')
     d=read('nonmetal_contrasts.csv')
     fig,axs=plt.subplots(2,3,figsize=(7.4,6.4),sharey=True)
@@ -271,6 +274,9 @@ def main():
     fig1();fig2();contrast_grid(read('contrasts.csv'),'Figure_03_chemical_contrasts');fig4();fig5();supplement()
     (OUT/'figure_build.json').write_text(json.dumps({'inputs':sorted(USED),'figures':sorted(p.stem for p in OUT.glob('*.pdf')),
         'scope':'Frozen saved estimates only; no refit or new bootstrap; table intervals preserved.'},indent=2)+'\n')
+    exports=[dict(file=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUT.iterdir()) if p.suffix in ['.pdf','.svg','.png']]
+    (ROOT/'figures/FIGURE_OUTPUTS.json').write_text(json.dumps(exports,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'figures/figure_environment.json').write_text(json.dumps(dict(python=sys.version.split()[0],packages={n:importlib.metadata.version(n) for n in ['numpy','pandas','matplotlib']},note='Actual figure-build environment; distinct from original fitted-model runtime.'),indent=2)+'\n',encoding='utf-8')
     print(f'Built {len(list(OUT.glob("*.pdf")))} PDF/SVG/PNG figure triplets in {OUT}')
 
 if __name__=='__main__':main()

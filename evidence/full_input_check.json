@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "atoms": 1420532,
+  "structures": 9171,
+  "target_pairs": 3,
+  "descriptor_structures": [
+    "qmof-03a39a4",
+    "qmof-04f3a5d",
+    "qmof-05602fe"
+  ],
+  "max_descriptor_error": 0.0,
+  "model": "blocked/ddec6_bader/fold0/conditional_twohop",
+  "model_atoms": 283027,
+  "max_saved_prediction_error": 0.0,
+  "scope": "Input/target audit; three accepted-descriptor replays; one saved-model prediction replay. No model training and no full-cohort descriptor rebuild."
+}

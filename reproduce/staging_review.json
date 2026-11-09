@@ -1,9 +1,8 @@
 {
-  "files": 733,
-  "bytes": 216171849,
+  "files_reviewed": 731,
+  "bytes": 144232377,
   "credential_pattern_hits": [],
-  "absolute_local_path_files": [
-    "inputs\\selection.json"
-  ],
-  "scope": "Reviewed curated project paths; pattern scan of text sources, metadata and documentation. No unrelated project or authentication files included."
+  "absolute_local_path_files": [],
+  "unchanged_scientific_source_files": 20,
+  "scope": "Tracked curated project only. Original selection-history JSON containing a historical local path is confined to the exact production deposit, not Git; no executable path depends on it. No unrelated project or credential files included."
 }

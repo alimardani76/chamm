@@ -38,6 +38,12 @@ from the repository root. On Windows use `.venv/Scripts/python`; on Unix use
 
 ```sh
 python -m venv .venv
+```
+
+Activate it with `.\.venv\Scripts\Activate.ps1` in PowerShell or
+`. .venv/bin/activate` in Bash. Then run:
+
+```sh
 python -m pip install -r reproduce/requirements-figures.txt
 python figures/source/make_figures.py
 python figures/source/make_tables.py
@@ -45,7 +51,8 @@ python figures/source/validate_package.py
 python reproduce/build_paper.py
 ```
 
-Activate the virtual environment before the install command. These commands
+The complete installed figure dependency set is recorded in
+`reproduce/requirements-figures-lock.txt`. These commands
 rebuild all five main and five SI figures as vector PDF, editable SVG text,
 and 400-dpi PNG previews from frozen saved estimates. No model fit or new
 uncertainty calculation is involved. Main/SI tables are generated from the
@@ -86,6 +93,9 @@ python reproduce/check_full_inputs.py
 `retrieve.py` downloads the real release asset, checks its size and SHA256,
 and checks every extracted file against `production_files.json`. If already
 downloaded, pass `--archive /path/to/ChaMM_Production_Inputs_v1.zip`.
+Interrupted downloads retain a partial file and resume where the server
+supports HTTP Range. `python reproduce/verify_remote.py` checks public asset
+metadata, the server digest when available, and the live download prefix.
 The audit checks all atom keys and three signed targets, replays accepted
 descriptors for three declared structures, and replays one saved blocked
 model on its full held-out fold. These are input and replay checks, not an
