@@ -1,0 +1,9 @@
+{
+  "files": 733,
+  "bytes": 216171849,
+  "credential_pattern_hits": [],
+  "absolute_local_path_files": [
+    "inputs\\selection.json"
+  ],
+  "scope": "Reviewed curated project paths; pattern scan of text sources, metadata and documentation. No unrelated project or authentication files included."
+}

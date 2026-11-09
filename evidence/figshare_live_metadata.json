@@ -1,0 +1,161 @@
+{
+  "url_public_html": "https://figshare.com/articles/dataset/QMOF_Database/13147324/18",
+  "files": [
+    {
+      "id": 25287668,
+      "name": "logo.jpg",
+      "size": 196467,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/25287668",
+      "supplied_md5": "c3f608de0711ebc50483dd3667fe1e6c",
+      "computed_md5": "c3f608de0711ebc50483dd3667fe1e6c",
+      "mimetype": "image/jpeg"
+    },
+    {
+      "id": 59573735,
+      "name": "qmof_database.zip",
+      "size": 392088304,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/59573735",
+      "supplied_md5": "0d89aaf66f2c306e86e47fd91cb1346e",
+      "computed_md5": "0d89aaf66f2c306e86e47fd91cb1346e",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 59573630,
+      "name": "qmof_thermo_database.zip",
+      "size": 152957231,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/59573630",
+      "supplied_md5": "8735b4267337010fc434095560a7fd39",
+      "computed_md5": "8735b4267337010fc434095560a7fd39",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 9566066,
+      "full_name": "Andrew Rosen",
+      "first_name": "Andrew",
+      "last_name": "Rosen",
+      "is_active": true,
+      "url_name": "Andrew_Rosen",
+      "orcid_id": "0000-0002-0141-7006"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/QMOF_Database/13147324",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">This repository hosts the Quantum MOF (QMOF) Database. See the <a href=\"https://materialsproject.gitbook.io/materials-project-public-docs/methodology/mof-explorer/downloading-the-data\" rel=\"noreferrer\" target=\"_blank\">corresponding documentation</a> for information on how to download other files and data.</p><p dir=\"ltr\">If you use or wish to cite the QMOF Database, please refer to the following publications. Both should be cited if you are using the dataset with 20k+ structures.</p><ul><li>A.S. Rosen, S.M. Iyer, D. Ray, Z. Yao, A. Aspuru-Guzik, L. Gagliardi, J.M. Notestein, R.Q. Snurr. \"<a href=\"https://doi.org/10.1016/j.matt.2021.02.015\" rel=\"noreferrer\" target=\"_blank\">Machine Learning the Quantum-Chemical Properties of Metal\u2013Organic Frameworks for Accelerated Materials Discovery</a>\", <i>Matter</i>, <b>4</b>, 1578-1597 (2021).</li><li>A.S. Rosen, V. Fung, P. Huck, C.T. O'Donnell, M.K. Horton, D.G. Truhlar, K.A. Persson, J.M. Notestein, R.Q. Snurr. \"<a href=\"https://doi.org/10.1038/s41524-022-00796-6\" rel=\"noreferrer\" target=\"_blank\">High-Throughput Predictions of Metal\u2013Organic Framework Electronic Properties: Theoretical Challenges, Graph Neural Networks, and Data Exploration</a>,\" <i>npj Comput. Mat.</i>, <b>8</b>, 195 (2022).</li></ul><p dir=\"ltr\">If you use or wish to cite the QMOF-Thermo Database, please refer to the following:</p><ul><li>B. Dallmann, A. Saha, A.S. Rosen. \"<a href=\"https://doi.org/10.1021/jacs.5c20253\" rel=\"noreferrer\" target=\"_blank\">Predicting the Thermodynamic Limits of Metal\u2013Organic Framework Metastability.</a>\" <i>J. Am. Chem. Soc.</i>, <b>148</b>, 19 (2026).</li></ul><p></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 18,
+  "status": "public",
+  "size": 545242002,
+  "created_date": "2025-11-15T02:35:10Z",
+  "modified_date": "2026-07-02T00:43:53Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Metal-organic framework",
+    "Density functional theory",
+    "Computational chemistry",
+    "Quantum chemistry",
+    "Computational Chemistry",
+    "Quantum Chemistry",
+    "Theory and Design of Materials",
+    "Physical Chemistry of Materials",
+    "Inorganic Chemistry"
+  ],
+  "keywords": [
+    "Metal-organic framework",
+    "Density functional theory",
+    "Computational chemistry",
+    "Quantum chemistry",
+    "Computational Chemistry",
+    "Quantum Chemistry",
+    "Theory and Design of Materials",
+    "Physical Chemistry of Materials",
+    "Inorganic Chemistry"
+  ],
+  "categories": [
+    {
+      "id": 25258,
+      "title": "Computational chemistry",
+      "parent_id": 25255,
+      "path": "/25066/25255/25258",
+      "source_id": "340701",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25267,
+      "title": "Theoretical quantum chemistry",
+      "parent_id": 25255,
+      "path": "/25066/25255/25267",
+      "source_id": "340704",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25168,
+      "title": "Theory and design of materials",
+      "parent_id": 25141,
+      "path": "/25066/25141/25168",
+      "source_id": "340309",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25156,
+      "title": "Physical properties of materials",
+      "parent_id": 25141,
+      "path": "/25066/25141/25156",
+      "source_id": "340305",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 25138,
+      "title": "Inorganic chemistry not elsewhere classified",
+      "parent_id": 25102,
+      "path": "/25066/25102/25138",
+      "source_id": "340299",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Rosen, Andrew (2020). QMOF Database. figshare. Dataset. https://doi.org/10.6084/m9.figshare.13147324.v18",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 13147324,
+  "title": "QMOF Database",
+  "doi": "10.6084/m9.figshare.13147324.v18",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/13147324",
+  "published_date": "2025-11-15T02:35:10Z",
+  "thumb": "https://s3-eu-west-1.amazonaws.com/pfigshare-u-previews/25287668/thumb.png",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/13147324",
+  "url_public_api": "https://api.figshare.com/v2/articles/13147324",
+  "url_private_html": "https://figshare.com/account/articles/13147324",
+  "timeline": {
+    "posted": "2025-11-15T02:35:10",
+    "firstOnline": "2020-10-29"
+  },
+  "resource_title": "",
+  "resource_doi": ""
+}

@@ -1,0 +1,19 @@
+{
+  "structures": 9171,
+  "atoms": 1420532,
+  "finite": true,
+  "unique_keys": true,
+  "direct_check": {
+    "qmof_id": "qmof-8a95c27",
+    "sites": [
+      0,
+      19,
+      38
+    ]
+  },
+  "seed": 20261109,
+  "folds": 5,
+  "weights": "each structure total weight one; element controls normalize this weight within element",
+  "sign_definition": "opposite charges beyond +/-0.05 e, with 0,0.01,0.10 sensitivity; near-zero is not opposition",
+  "algebra": "delta_DC + delta_CB = delta_DB; range=max pairwise absolute difference"
+}

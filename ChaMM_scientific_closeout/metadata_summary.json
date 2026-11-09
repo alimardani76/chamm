@@ -1,0 +1,47 @@
+{
+  "mofkey": {
+    "available_structures": 5408,
+    "unique_values": 5114,
+    "repeated_groups": 201,
+    "structures_in_repeated_groups": 495,
+    "groups_crossing_current_folds": 174,
+    "structures_in_cross_fold_groups": 441,
+    "largest_group": 13
+  },
+  "mofid": {
+    "available_structures": 5276,
+    "unique_values": 5082,
+    "repeated_groups": 143,
+    "structures_in_repeated_groups": 337,
+    "groups_crossing_current_folds": 118,
+    "structures_in_cross_fold_groups": 287,
+    "largest_group": 8
+  },
+  "topology": {
+    "available_structures": 5484,
+    "unique_values": 179,
+    "repeated_groups": 114,
+    "structures_in_repeated_groups": 5419,
+    "groups_crossing_current_folds": 107,
+    "structures_in_cross_fold_groups": 5405,
+    "largest_group": 1787
+  },
+  "doi": {
+    "available_structures": 7964,
+    "unique_values": 3460,
+    "repeated_groups": 651,
+    "structures_in_repeated_groups": 5155,
+    "groups_crossing_current_folds": 545,
+    "structures_in_cross_fold_groups": 4941,
+    "largest_group": 1806
+  },
+  "formula_reduced": {
+    "available_structures": 9171,
+    "unique_values": 8468,
+    "repeated_groups": 550,
+    "structures_in_repeated_groups": 1253,
+    "groups_crossing_current_folds": 440,
+    "structures_in_cross_fold_groups": 1030,
+    "largest_group": 11
+  }
+}

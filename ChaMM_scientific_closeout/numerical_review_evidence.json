@@ -1,0 +1,113 @@
+{
+  "global_structure_loss_tables": {
+    "rows": 825210,
+    "aggregate_rows_verified": 90,
+    "max_abs_error": 9.71445146547012e-17
+  },
+  "splits": {
+    "structures": 9171,
+    "unique": true,
+    "fold_counts": {
+      "0": 1835,
+      "1": 1834,
+      "2": 1834,
+      "3": 1834,
+      "4": 1834
+    }
+  },
+  "global_primary_intervals_recomputed": [
+    {
+      "pair": "ddec6_cm5",
+      "mae_baseline": 0.026284825628536658,
+      "mae_model": 0.010916909429206895,
+      "improvement": 0.015367916199329767,
+      "ci": [
+        0.015234309497355462,
+        0.015529745934642345
+      ]
+    },
+    {
+      "pair": "ddec6_bader",
+      "mae_baseline": 0.09296800150419382,
+      "mae_model": 0.04168945211171037,
+      "improvement": 0.05127854939248344,
+      "ci": [
+        0.050651099745333966,
+        0.05194622623635292
+      ]
+    },
+    {
+      "pair": "cm5_bader",
+      "mae_baseline": 0.07435447377235466,
+      "mae_model": 0.043807556673487326,
+      "improvement": 0.03054691709886733,
+      "ci": [
+        0.030137108592329577,
+        0.030975618732636694
+      ]
+    }
+  ],
+  "chemical_contrast_aggregates": {
+    "input_rows": 495882,
+    "contrasts_verified": 108,
+    "max_abs_error": 1.6653345369377348e-16
+  },
+  "metal_predictions_verified": [
+    {
+      "pair": "ddec6_cm5",
+      "atoms": 46994,
+      "structures": 9165,
+      "targets_match_recovered_source": true,
+      "folds_match": true,
+      "baseline": 0.02707209485079009,
+      "model": 0.01743330571785451,
+      "improvement": 0.009638789132935583,
+      "ci": [
+        0.009156698612443876,
+        0.0101210553458003
+      ]
+    },
+    {
+      "pair": "ddec6_bader",
+      "atoms": 46994,
+      "structures": 9165,
+      "targets_match_recovered_source": true,
+      "folds_match": true,
+      "baseline": 0.020246316452179385,
+      "model": 0.013849244195767474,
+      "improvement": 0.006397072256411914,
+      "ci": [
+        0.006029262836794722,
+        0.0067615771147878975
+      ]
+    },
+    {
+      "pair": "cm5_bader",
+      "atoms": 46994,
+      "structures": 9165,
+      "targets_match_recovered_source": true,
+      "folds_match": true,
+      "baseline": 0.029265148424135527,
+      "model": 0.018957796833390373,
+      "improvement": 0.010307351590745157,
+      "ci": [
+        0.009859861408995777,
+        0.010776640063930212
+      ]
+    }
+  ],
+  "independent_panel_graph_bookkeeping": {
+    "structures": 34,
+    "atoms": 5198,
+    "directed_edges": 12258,
+    "extra_images": 4,
+    "duplicate_edges": 0,
+    "missing_reverse": 0,
+    "distance_errors": 0
+  },
+  "limitations": [
+    "Global atom-level predictions, full feature table, training sample keys and fitted models are omitted from the compact review ZIP; their full numerical reconstruction was not performed here.",
+    "Table agreement is checked against the supplied per-structure losses; it is not independent regeneration of all global model predictions.",
+    "Chemical bond truth and broader family transfer are not established by graph bookkeeping or successful model execution."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "configuration_id": "621045db53a892f1",
+  "configuration": {
+    "config": {
+      "crystal": {
+        "cation_anion": false,
+        "distance_cutoffs": [
+          0.5,
+          1.0
+        ],
+        "fingerprint_length": null,
+        "porous_adjustment": true,
+        "search_cutoff": 7.0,
+        "weighted_cn": false,
+        "x_diff_weight": 0.0
+      },
+      "metal_classification": "pymatgen.core.Element.is_metal",
+      "metal_metal": "selected by either metal center; retain and flag; cutoff proximity separate",
+      "metal_rule": "metal_center_union",
+      "min_distance": 0.4,
+      "nonmetal_scale": 1.25,
+      "radii": "ase.data.covalent_radii",
+      "version": "operational-v1"
+    },
+    "module_sha256": "1656cf95df8835a2ca919a2617b999bf9fede5e0a52bf0daf068bcfa77c2fa4a",
+    "versions": {
+      "ase": "3.29.0",
+      "numpy": "1.26.4",
+      "pymatgen": "2025.10.7",
+      "scipy": "1.17.1"
+    }
+  },
+  "metal_elements_in_panel": [
+    "Ag",
+    "Al",
+    "Ba",
+    "Cd",
+    "Co",
+    "Cs",
+    "Cu",
+    "Dy",
+    "Eu",
+    "Fe",
+    "Gd",
+    "La",
+    "Mn",
+    "Na",
+    "Nd",
+    "Ni",
+    "Pb",
+    "Pr",
+    "Pt",
+    "Rb",
+    "Sm",
+    "Zn",
+    "Zr"
+  ],
+  "panel_structures": 34,
+  "panel_atoms": 5198,
+  "baseline_origin": "18 seed baselines reused; 16 additions recomputed; 10 decisive seed-site calculations replayed with installed versions",
+  "carbon_cycles": [
+    [
+      142,
+      138,
+      134,
+      150,
+      152
+    ],
+    [
+      144,
+      140,
+      132,
+      146,
+      148
+    ]
+  ],
+  "decision": "accept metal-center union hybrid for production with ambiguity flags"
+}

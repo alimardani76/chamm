@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the ChaMM manuscript and the QMOF sources in THIRD_PARTY.md."
+type: software
+title: "ChaMM: Local Chemical Environments Explain Charge-Definition Disagreement in Metal–Organic Frameworks"
+version: 1.0.0
+authors:
+  - family-names: Alimardani
+    given-names: Hosein
+  - family-names: Abaei
+    given-names: Shayan
+  - family-names: Asgari
+    given-names: Mehrdad
+repository-code: "https://github.com/alimardani76/chamm"
+url: "https://github.com/alimardani76/chamm/releases/tag/v1.0.0"

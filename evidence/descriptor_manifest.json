@@ -1,0 +1,52 @@
+{
+  "structures": 9171,
+  "atoms": 1420532,
+  "valid_graph_atoms": 1420532,
+  "flags": {
+    "ambiguous": 24297,
+    "graph_failure": 0,
+    "zero_neighbors": 72,
+    "metal_c_contact": 4360,
+    "metal_h_contact": 662,
+    "metal_metal_contact": 3910,
+    "extended_metal_contact": 14586,
+    "cutoff_disagreement": 38015,
+    "radius_sensitivity": 569
+  },
+  "configuration_id": "621045db53a892f1",
+  "configuration": {
+    "config": {
+      "crystal": {
+        "cation_anion": false,
+        "distance_cutoffs": [
+          0.5,
+          1.0
+        ],
+        "fingerprint_length": null,
+        "porous_adjustment": true,
+        "search_cutoff": 7.0,
+        "weighted_cn": false,
+        "x_diff_weight": 0.0
+      },
+      "metal_classification": "pymatgen.core.Element.is_metal",
+      "metal_metal": "selected by either metal center; retain and flag; cutoff proximity separate",
+      "metal_rule": "metal_center_union",
+      "min_distance": 0.4,
+      "nonmetal_scale": 1.25,
+      "radii": "ase.data.covalent_radii",
+      "version": "operational-v1"
+    },
+    "module_sha256": "1656cf95df8835a2ca919a2617b999bf9fede5e0a52bf0daf068bcfa77c2fa4a",
+    "versions": {
+      "ase": "3.29.0",
+      "numpy": "1.26.4",
+      "pymatgen": "2025.10.7",
+      "scipy": "1.17.1"
+    }
+  },
+  "source_cache": "work/source_cache_manifest.json",
+  "elapsed_this_invocation_seconds": 624.2158555999995,
+  "charge_alignment": "PASS all keys/elements/source site order",
+  "failures_this_invocation": 0,
+  "table_sha256": "c7334f916cf914652265c878bcc0b14607a24e3e1d50a5ef63e3c0651e7c7584"
+}

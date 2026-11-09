@@ -1,0 +1,10 @@
+flag,n_atoms,fraction_of_common_atoms
+ambiguous,24297,0.01710415534461737
+graph_failure,0,0.0
+zero_neighbors,72,5.068523623543855e-05
+metal_c_contact,4360,0.003069272638701557
+metal_h_contact,662,0.0004660225887202823
+metal_metal_contact,3910,0.002752489912230066
+extended_metal_contact,14586,0.010267984107362594
+cutoff_disagreement,38015,0.026761100770697176
+radius_sensitivity,569,0.0004005541585828408

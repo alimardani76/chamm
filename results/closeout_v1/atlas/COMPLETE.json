@@ -1,0 +1,7 @@
+{
+  "bootstrap_replicates": 1000,
+  "original_unit": "QMOF",
+  "blocked_unit": "identifier/composition component; ratio of QMOF sums/counts",
+  "conditional_training": "same sampled atoms/weights for competitors",
+  "all_atoms_each_pair": 1420532
+}

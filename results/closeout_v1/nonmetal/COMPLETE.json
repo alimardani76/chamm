@@ -1,0 +1,10 @@
+{
+  "structures": 96,
+  "source_residuals": "original-fold flexible charge-only OOF",
+  "scales": [
+    1.2,
+    1.25,
+    1.3
+  ],
+  "new_metal_NN_runs": 0
+}

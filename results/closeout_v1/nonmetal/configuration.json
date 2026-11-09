@@ -1,0 +1,12 @@
+{
+  "source_accepted_configuration": "621045db53a892f1",
+  "subset_sha256": "620765c6287f9247b9b80555b1c1f38e11d3cdc0b4b1409f54220b60b72070c0",
+  "nonmetal_scales": [
+    1.2,
+    1.25,
+    1.3
+  ],
+  "minimum_distance": 0.4,
+  "metal_edges": "accepted image-aware edges retained exactly; no CrystalNN calls",
+  "classification": "pymatgen Element.is_metal"
+}

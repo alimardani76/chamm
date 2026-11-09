@@ -1,0 +1,152 @@
+[
+  {
+    "file": "overleaf/figures/Figure_01_charge_landscape.pdf",
+    "sha256": "d2dc6f758702543176d8f306946e97e48ad9bb0382f6ca9649da4ebeccbc1273",
+    "bytes": 26102
+  },
+  {
+    "file": "overleaf/figures/Figure_01_charge_landscape.png",
+    "sha256": "54402df092b44c6d8435de549d1d05e24b15d1c2f2735e45cd13957a24053bf1",
+    "bytes": 171030
+  },
+  {
+    "file": "overleaf/figures/Figure_01_charge_landscape.svg",
+    "sha256": "9f54edfe30ae595c8875385a35a26923b8bef681c02c95b60bb2a6f1436b5064",
+    "bytes": 47169
+  },
+  {
+    "file": "overleaf/figures/Figure_02_conditional_evidence.pdf",
+    "sha256": "8165f3be67c68b3894392549765ff74644981173f06649b76c6178dd4263a341",
+    "bytes": 27863
+  },
+  {
+    "file": "overleaf/figures/Figure_02_conditional_evidence.png",
+    "sha256": "19c01ea703483c9d8c39fdb0c33586871d65ef22f522bb9ab7e403cb29141509",
+    "bytes": 274604
+  },
+  {
+    "file": "overleaf/figures/Figure_02_conditional_evidence.svg",
+    "sha256": "fa602d6bc856acd3e6973b21e62a483e319cab43cf2ee6c16adb3b4f7891c68d",
+    "bytes": 65002
+  },
+  {
+    "file": "overleaf/figures/Figure_03_chemical_contrasts.pdf",
+    "sha256": "2a2d3adf41a4ebce4fa82ad028f835c8d5027a735ae5d8ab30ac59c277295994",
+    "bytes": 30785
+  },
+  {
+    "file": "overleaf/figures/Figure_03_chemical_contrasts.png",
+    "sha256": "3fd769310a8fdf923e6fda1e3a2ca16be4ba3ecd5847e6a8ac7deafe32e18288",
+    "bytes": 285737
+  },
+  {
+    "file": "overleaf/figures/Figure_03_chemical_contrasts.svg",
+    "sha256": "555bf8882dff130c607e09aa957ec7f4705fcb34d98e3508dd1a4eb564a3ce76",
+    "bytes": 96124
+  },
+  {
+    "file": "overleaf/figures/Figure_04_population_limits.pdf",
+    "sha256": "494db729933a4ee0156a55f8f4e839ec8b6ac59c7c89c90de611bbb8ef2a13d9",
+    "bytes": 21160
+  },
+  {
+    "file": "overleaf/figures/Figure_04_population_limits.png",
+    "sha256": "7df41acf3e8ebab67941e06ed3184bfed4ed894260a88b6740060c6dee68c3e4",
+    "bytes": 96023
+  },
+  {
+    "file": "overleaf/figures/Figure_04_population_limits.svg",
+    "sha256": "fdf1bff6eebcd9136acff4ec3167b190477b3e4b43a856762465f33849c664cd",
+    "bytes": 32150
+  },
+  {
+    "file": "overleaf/figures/Figure_05_connectivity_limits.pdf",
+    "sha256": "f4244d65a772001be3fae37fbc686a6dfee1d5191f7efd03478e3b55f9650864",
+    "bytes": 22786
+  },
+  {
+    "file": "overleaf/figures/Figure_05_connectivity_limits.png",
+    "sha256": "e563550f64bed05df6e91dd5b9fbb17cdca6fb75ae747b7a0bf51090c69719cc",
+    "bytes": 200259
+  },
+  {
+    "file": "overleaf/figures/Figure_05_connectivity_limits.svg",
+    "sha256": "2dba1cfafb01985fd95035dd55608d1c76740de555a8f1a087f3dcf866250db0",
+    "bytes": 27686
+  },
+  {
+    "file": "overleaf/figures/Figure_S01_calibration.pdf",
+    "sha256": "eae54f9520f8b440407470f9474f939522243833efb1fee43b7a7ccf55124765",
+    "bytes": 25417
+  },
+  {
+    "file": "overleaf/figures/Figure_S01_calibration.png",
+    "sha256": "8e42717bd2fcf3a7db776f7f4d597bf35d536a325cea17e5f4dad7e991a3e15c",
+    "bytes": 305419
+  },
+  {
+    "file": "overleaf/figures/Figure_S01_calibration.svg",
+    "sha256": "ca411d2c2d5d4c6f1cd84ed8b7ef9795519e048580954408767250fbdbce7168",
+    "bytes": 51494
+  },
+  {
+    "file": "overleaf/figures/Figure_S02_estimands.pdf",
+    "sha256": "5632aece43cf5f9995a75f7537c3c4edfb148f8a4813fdb1e2b3e71a05ea0423",
+    "bytes": 19435
+  },
+  {
+    "file": "overleaf/figures/Figure_S02_estimands.png",
+    "sha256": "ac9f1251a6ecd251665195fe5678ef9da531e42b7b557513b7575639f43a4126",
+    "bytes": 89040
+  },
+  {
+    "file": "overleaf/figures/Figure_S02_estimands.svg",
+    "sha256": "ac85535b994a76751da0352420d9da0db8889c065da38999f9e0d691cbefd456",
+    "bytes": 20019
+  },
+  {
+    "file": "overleaf/figures/Figure_S03_folds.pdf",
+    "sha256": "8f899e4f8be5a8b296c95df05cab4202e958b0212bda9f260876b363ccadee23",
+    "bytes": 20586
+  },
+  {
+    "file": "overleaf/figures/Figure_S03_folds.png",
+    "sha256": "86e99a631901e483e72ccb73ca178728fb0c759708f476bc14aa69c8c4e438a9",
+    "bytes": 121276
+  },
+  {
+    "file": "overleaf/figures/Figure_S03_folds.svg",
+    "sha256": "305d614334561bd15f2fa1d7e425122d3331ff16a99255eea43a74e5e08e9ca7",
+    "bytes": 22354
+  },
+  {
+    "file": "overleaf/figures/Figure_S04_atlas.pdf",
+    "sha256": "54059d887360be0bfe51ee5f566dabfcd15d0df2fbf12fed32ab77563d188463",
+    "bytes": 43195
+  },
+  {
+    "file": "overleaf/figures/Figure_S04_atlas.png",
+    "sha256": "4152251aa009e805ec2523dd3c4bcb07066e7cea59eb9a687768e844db8d043c",
+    "bytes": 352320
+  },
+  {
+    "file": "overleaf/figures/Figure_S04_atlas.svg",
+    "sha256": "294dd9cfc9128ed1030a4f9988460e1f893c296b38deac80f080d321a268f4c4",
+    "bytes": 68465
+  },
+  {
+    "file": "overleaf/figures/Figure_S05_cutoff_contrasts.pdf",
+    "sha256": "4ee4b363f16fbded51042c0f6209e1e35ba067c9bc8c6fe77cc4cb4baed1c1cc",
+    "bytes": 30265
+  },
+  {
+    "file": "overleaf/figures/Figure_S05_cutoff_contrasts.png",
+    "sha256": "d733dfcdb6c29e2be5373a2887c331437521296c427121b3b403794e97848114",
+    "bytes": 224470
+  },
+  {
+    "file": "overleaf/figures/Figure_S05_cutoff_contrasts.svg",
+    "sha256": "845e33876e99f2be89b1cda2cc19c2ccfd4b544edbe2ef34024f6caca97a5c23",
+    "bytes": 124231
+  }
+]

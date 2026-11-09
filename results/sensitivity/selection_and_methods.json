@@ -1,0 +1,8 @@
+{
+  "structures": 96,
+  "selection": "34 retained diagnostic structures + 62 smallest SHA256(ChaMM-sensitivity-20261109:qmof_id); no charge outcomes consulted",
+  "alternative": "accepted hybrid, both CrystalNN taper endpoints shifted +0.10 angstrom; tested on panel",
+  "stress": "original cutoff 1.25; known shell failures, not asserted equally chemically valid",
+  "evaluation": "fixed outer-fold models, replacing structural features only; no retuning",
+  "limitations": "small selected subset, not a population prevalence sample; no topology grouping"
+}

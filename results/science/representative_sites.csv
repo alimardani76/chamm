@@ -1,0 +1,14 @@
+qmof_id,atom_index,element,cn,is_metal,first_n_O,first_n_N,first_n_C,first_n_H,first_n_metal,first_formula,neighbor_metal_formula,ambiguous,zero_neighbors,metal_c_contact,metal_h_contact,metal_metal_contact,extended_metal_contact,cutoff_disagreement,radius_sensitivity,environment,ddec6,cm5,bader
+qmof-011c3e3,34,C,3,0,0,0,2,1,0,H1;C2,,False,False,False,False,False,False,False,False,C:C/H-only,-0.118104,-0.078822,-0.003097
+qmof-0054a8a,40,C,3,0,0,1,2,0,0,C2;N1,,False,False,False,False,False,False,False,False,C:N-attached,0.182801,0.098944,0.341452
+qmof-006f9b7,15,C,3,0,2,0,1,0,0,C1;O2,,False,False,False,False,False,False,False,False,C:O-attached,0.634843,0.219388,1.558012
+qmof-1b6b7d3,6,H,1,0,0,0,1,0,0,C1,,False,False,False,False,False,False,False,False,H:C-bound,0.12827,0.113714,0.155021
+qmof-00ff964,8,H,1,0,0,1,0,0,0,N1,,False,False,False,False,False,False,False,False,H:N-bound,0.275346,0.29012,0.502281
+qmof-002f097,2,H,1,0,1,0,0,0,0,O1,,False,False,False,False,False,False,False,False,H:O-bound,0.395412,0.300772,0.649221
+qmof-00324c8,90,N,3,0,0,0,2,0,1,C2;Cd1,Cd1,False,False,False,False,False,False,False,False,N:metal-adjacent,-0.290111,-0.35393,-1.214786
+qmof-0221d3d,192,N,3,0,0,0,3,0,0,C3,,False,False,False,False,False,False,False,False,N:no-metal,-0.08149,-0.23212,-1.240611
+qmof-004ecd7,196,O,2,0,0,0,1,0,1,C1;Cd1,Cd1,True,False,False,False,False,True,True,False,O:metal-adjacent,-0.56451,-0.347953,-1.17758
+qmof-006948c,136,O,2,0,0,0,2,0,0,C2,,False,False,False,False,False,False,False,False,O:no-metal,-0.235427,-0.227704,-1.071711
+qmof-003cb6c,0,Cu,5,1,0,3,0,0,0,N3;Cl2,,False,False,False,False,False,False,False,False,metal:N-no-O,0.619102,0.640759,0.922961
+qmof-00089fc,2,Ag,7,1,4,0,0,0,3,O4;Ag3,Ag3,True,False,False,False,True,True,True,False,metal:O-no-N,0.433705,0.391131,0.622071
+qmof-00089fc,0,Ag,4,1,1,1,0,0,2,N1;O1;Ag2,Ag2,True,False,False,False,True,False,False,False,metal:mixed-ON,0.436203,0.459038,0.604301

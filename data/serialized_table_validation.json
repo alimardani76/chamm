@@ -1,0 +1,8 @@
+{
+  "serialized_rows": 1420532,
+  "structure_ids": 9171,
+  "all_charge_values_finite": true,
+  "benchmark_atom_rows_verified": 5198,
+  "cohort_manifest_counts_match": true,
+  "status": "PASS"
+}

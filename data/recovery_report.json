@@ -1,0 +1,52 @@
+{
+  "status": "RECOVERED",
+  "observed": {
+    "structures": 20372,
+    "all_atoms": 2312743,
+    "common_structures": 9171,
+    "common_atoms": 1420532,
+    "ddec_complete": 20372,
+    "cm5_complete": 20372,
+    "bader_complete": 9171
+  },
+  "expected": {
+    "structures": 20372,
+    "all_atoms": 2312743,
+    "common_structures": 9171,
+    "common_atoms": 1420532,
+    "ddec_complete": 20372,
+    "cm5_complete": 20372,
+    "bader_complete": 9171
+  },
+  "checks": {
+    "counts_match_original": true,
+    "benchmark_matches": 34,
+    "benchmark_missing": []
+  },
+  "seconds": 58.370033336999995,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "ijson": "3.6.0",
+  "source": {
+    "article_id": 13147324,
+    "article_version": 18,
+    "file_name": "qmof_database.zip",
+    "file_id": 59573735,
+    "size_bytes": 392088304,
+    "md5": "0d89aaf66f2c306e86e47fd91cb1346e",
+    "download_url": "https://ndownloader.figshare.com/files/59573735",
+    "member": "qmof_database/qmof_structure_data.json"
+  },
+  "benchmark_sha256": "c577caf1602fd8f82a6755c513e4a5e1c2a7dfac8253312aa8a62a5ad4b4dff6",
+  "script_sha256": "f41ed817401be18f2abe4f226822f912619788e4acab6fb95cbd205c24aedb72",
+  "note": "Minimal charge-only reconstruction. This is not an identical copy of the lost CSV schema. Derived differences are recomputable from the three charges. Source site ordering and common-cohort membership are retained. No connectivity is validated by this recovery.",
+  "outputs": {
+    "chamm_atom_charges_recovered.csv.gz": {
+      "bytes": 21597615,
+      "sha256": "e4f1e2e502547a81d423378620084559dce555dd99399b7f948ea08e1fe00190"
+    },
+    "chamm_common_cohort.csv": {
+      "bytes": 350949,
+      "sha256": "65eda7292ff2d59d8d66c4b303ae3a8e7088930e5a15ac46a969d7b25f03217f"
+    }
+  }
+}

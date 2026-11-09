@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    "calibration_curvature.csv",
+    "compact_atlas.csv",
+    "conditional_gains.csv",
+    "conditional_metrics.csv",
+    "contrasts.csv",
+    "element_differences.csv",
+    "fold_gains.csv",
+    "metal_graph_sensitivity.csv",
+    "nonmetal_changes.csv",
+    "nonmetal_contrasts.csv",
+    "nonmetal_edges.csv"
+  ],
+  "figures": [
+    "Figure_01_charge_landscape",
+    "Figure_02_conditional_evidence",
+    "Figure_03_chemical_contrasts",
+    "Figure_04_population_limits",
+    "Figure_05_connectivity_limits",
+    "Figure_S01_calibration",
+    "Figure_S02_estimands",
+    "Figure_S03_folds",
+    "Figure_S04_atlas",
+    "Figure_S05_cutoff_contrasts"
+  ],
+  "scope": "Frozen saved estimates only; no refit or new bootstrap; table intervals preserved."
+}

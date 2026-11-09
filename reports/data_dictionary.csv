@@ -1,0 +1,185 @@
+block,column,type,structural_predictor,meaning
+structural,qmof_id,string,False,see METHODS.md and code/chamm_graph.py
+structural,atom_index,int64,False,see METHODS.md and code/chamm_graph.py
+structural,element,string,False,see METHODS.md and code/chamm_graph.py
+structural,atomic_number,int64,True,see METHODS.md and code/chamm_graph.py
+structural,group,int64,True,see METHODS.md and code/chamm_graph.py
+structural,period,int64,True,see METHODS.md and code/chamm_graph.py
+structural,electronegativity,double,True,see METHODS.md and code/chamm_graph.py
+structural,covalent_radius,double,True,see METHODS.md and code/chamm_graph.py
+structural,is_metal,int64,True,see METHODS.md and code/chamm_graph.py
+structural,cn,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_formula,string,False,see METHODS.md and code/chamm_graph.py
+structural,neighbor_metal_formula,string,False,see METHODS.md and code/chamm_graph.py
+structural,twohop_paths,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,graph_valid,bool,False,see METHODS.md and code/chamm_graph.py
+structural,zero_neighbors,bool,False,"review diagnostic, not bond truth"
+structural,graph_failure,bool,False,"review diagnostic, not bond truth"
+structural,metal_c_contact,bool,False,"review diagnostic, not bond truth"
+structural,metal_h_contact,bool,False,"review diagnostic, not bond truth"
+structural,metal_metal_contact,bool,False,"review diagnostic, not bond truth"
+structural,cutoff_disagreement,bool,False,"review diagnostic, not bond truth"
+structural,radius_sensitivity,bool,False,"review diagnostic, not bond truth"
+structural,extended_metal_contact,bool,False,"review diagnostic, not bond truth"
+structural,cn_probability,double,False,see METHODS.md and code/chamm_graph.py
+structural,cn_probability_gap,double,False,see METHODS.md and code/chamm_graph.py
+structural,geometric_metal_proximity,int64,False,see METHODS.md and code/chamm_graph.py
+structural,first_n_H,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_B,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_C,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_N,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_O,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_F,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_Si,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_P,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_S,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_Cl,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_Se,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_Br,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_I,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_metal,int64,True,see METHODS.md and code/chamm_graph.py
+structural,first_n_other_nonmetal,int64,True,see METHODS.md and code/chamm_graph.py
+structural,twohop_n_H,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_B,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_C,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_N,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_O,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_F,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_Si,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_P,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_S,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_Cl,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_Se,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_Br,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_I,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_metal,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,twohop_n_other_nonmetal,int64,True,"two-hop non-backtracking path count, not unique atoms"
+structural,mean_neighbor_metal_Z,double,True,see METHODS.md and code/chamm_graph.py
+structural,distance_mean,double,True,see METHODS.md and code/chamm_graph.py
+structural,distance_std,double,True,see METHODS.md and code/chamm_graph.py
+structural,distance_min,double,True,see METHODS.md and code/chamm_graph.py
+structural,distance_max,double,True,see METHODS.md and code/chamm_graph.py
+structural,normalized_distance_mean,double,True,see METHODS.md and code/chamm_graph.py
+structural,normalized_distance_std,double,True,see METHODS.md and code/chamm_graph.py
+structural,normalized_distance_min,double,True,see METHODS.md and code/chamm_graph.py
+structural,normalized_distance_max,double,True,see METHODS.md and code/chamm_graph.py
+structural,distance_cv,double,True,see METHODS.md and code/chamm_graph.py
+structural,neighbor_X_mean,double,True,see METHODS.md and code/chamm_graph.py
+structural,neighbor_X_std,double,True,see METHODS.md and code/chamm_graph.py
+structural,neighbor_abs_delta_X_mean,double,True,see METHODS.md and code/chamm_graph.py
+structural,ambiguous,bool,False,"review diagnostic, not bond truth"
+target,qmof_id,string,False,see METHODS.md and code/chamm_graph.py
+target,name,string,False,see METHODS.md and code/chamm_graph.py
+target,atom_index,int64,False,see METHODS.md and code/chamm_graph.py
+target,element,string,False,see METHODS.md and code/chamm_graph.py
+target,ddec6,double,False,see METHODS.md and code/chamm_graph.py
+target,cm5,double,False,see METHODS.md and code/chamm_graph.py
+target,bader,double,False,see METHODS.md and code/chamm_graph.py
+target,is_metal,bool,False,see METHODS.md and code/chamm_graph.py
+target,fold,int32,False,see METHODS.md and code/chamm_graph.py
+target,structure_weight,double,False,see METHODS.md and code/chamm_graph.py
+target,charge_range,double,False,see METHODS.md and code/chamm_graph.py
+target,near_zero_any_005,bool,False,see METHODS.md and code/chamm_graph.py
+target,sign_opposition_0.00,bool,False,see METHODS.md and code/chamm_graph.py
+target,sign_opposition_0.01,bool,False,see METHODS.md and code/chamm_graph.py
+target,sign_opposition_0.05,bool,False,see METHODS.md and code/chamm_graph.py
+target,sign_opposition_0.10,bool,False,see METHODS.md and code/chamm_graph.py
+target,delta_ddec6_cm5,double,False,see METHODS.md and code/chamm_graph.py
+target,abs_ddec6_cm5,double,False,see METHODS.md and code/chamm_graph.py
+target,delta_ddec6_bader,double,False,see METHODS.md and code/chamm_graph.py
+target,abs_ddec6_bader,double,False,see METHODS.md and code/chamm_graph.py
+target,delta_cm5_bader,double,False,see METHODS.md and code/chamm_graph.py
+target,abs_cm5_bader,double,False,see METHODS.md and code/chamm_graph.py
+derived structural,central_Ag,float32,True,central element one-hot
+derived structural,central_Al,float32,True,central element one-hot
+derived structural,central_As,float32,True,central element one-hot
+derived structural,central_Au,float32,True,central element one-hot
+derived structural,central_B,float32,True,central element one-hot
+derived structural,central_Ba,float32,True,central element one-hot
+derived structural,central_Bi,float32,True,central element one-hot
+derived structural,central_Br,float32,True,central element one-hot
+derived structural,central_C,float32,True,central element one-hot
+derived structural,central_Ca,float32,True,central element one-hot
+derived structural,central_Cd,float32,True,central element one-hot
+derived structural,central_Ce,float32,True,central element one-hot
+derived structural,central_Cl,float32,True,central element one-hot
+derived structural,central_Co,float32,True,central element one-hot
+derived structural,central_Cr,float32,True,central element one-hot
+derived structural,central_Cs,float32,True,central element one-hot
+derived structural,central_Cu,float32,True,central element one-hot
+derived structural,central_Dy,float32,True,central element one-hot
+derived structural,central_Er,float32,True,central element one-hot
+derived structural,central_Eu,float32,True,central element one-hot
+derived structural,central_F,float32,True,central element one-hot
+derived structural,central_Fe,float32,True,central element one-hot
+derived structural,central_Ga,float32,True,central element one-hot
+derived structural,central_Gd,float32,True,central element one-hot
+derived structural,central_Ge,float32,True,central element one-hot
+derived structural,central_H,float32,True,central element one-hot
+derived structural,central_Hf,float32,True,central element one-hot
+derived structural,central_Hg,float32,True,central element one-hot
+derived structural,central_Ho,float32,True,central element one-hot
+derived structural,central_I,float32,True,central element one-hot
+derived structural,central_In,float32,True,central element one-hot
+derived structural,central_Ir,float32,True,central element one-hot
+derived structural,central_K,float32,True,central element one-hot
+derived structural,central_La,float32,True,central element one-hot
+derived structural,central_Li,float32,True,central element one-hot
+derived structural,central_Lu,float32,True,central element one-hot
+derived structural,central_Mg,float32,True,central element one-hot
+derived structural,central_Mn,float32,True,central element one-hot
+derived structural,central_Mo,float32,True,central element one-hot
+derived structural,central_N,float32,True,central element one-hot
+derived structural,central_Na,float32,True,central element one-hot
+derived structural,central_Nb,float32,True,central element one-hot
+derived structural,central_Nd,float32,True,central element one-hot
+derived structural,central_Ni,float32,True,central element one-hot
+derived structural,central_O,float32,True,central element one-hot
+derived structural,central_P,float32,True,central element one-hot
+derived structural,central_Pb,float32,True,central element one-hot
+derived structural,central_Pd,float32,True,central element one-hot
+derived structural,central_Pr,float32,True,central element one-hot
+derived structural,central_Pt,float32,True,central element one-hot
+derived structural,central_Rb,float32,True,central element one-hot
+derived structural,central_Re,float32,True,central element one-hot
+derived structural,central_Rh,float32,True,central element one-hot
+derived structural,central_Ru,float32,True,central element one-hot
+derived structural,central_S,float32,True,central element one-hot
+derived structural,central_Sb,float32,True,central element one-hot
+derived structural,central_Sc,float32,True,central element one-hot
+derived structural,central_Se,float32,True,central element one-hot
+derived structural,central_Si,float32,True,central element one-hot
+derived structural,central_Sm,float32,True,central element one-hot
+derived structural,central_Sn,float32,True,central element one-hot
+derived structural,central_Sr,float32,True,central element one-hot
+derived structural,central_Tb,float32,True,central element one-hot
+derived structural,central_Te,float32,True,central element one-hot
+derived structural,central_Th,float32,True,central element one-hot
+derived structural,central_Ti,float32,True,central element one-hot
+derived structural,central_Tl,float32,True,central element one-hot
+derived structural,central_Tm,float32,True,central element one-hot
+derived structural,central_U,float32,True,central element one-hot
+derived structural,central_V,float32,True,central element one-hot
+derived structural,central_W,float32,True,central element one-hot
+derived structural,central_Y,float32,True,central element one-hot
+derived structural,central_Yb,float32,True,central element one-hot
+derived structural,central_Zn,float32,True,central element one-hot
+derived structural,central_Zr,float32,True,central element one-hot
+derived structural,neighbor_metal_n_Ag,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Al,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Ba,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Ca,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Cd,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Co,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Cu,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Dy,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Fe,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Gd,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_La,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Mg,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Mn,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Ni,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Pb,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Pt,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Zn,float32,True,count parsed from neighbor_metal_formula
+derived structural,neighbor_metal_n_Zr,float32,True,count parsed from neighbor_metal_formula

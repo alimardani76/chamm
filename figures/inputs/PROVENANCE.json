@@ -1,0 +1,62 @@
+[
+  {
+    "file": "element_differences.csv",
+    "source": "final_closeout_review/figures/inputs/element_differences.csv",
+    "sha256": "07fc71a501b4aee05eb6a17a43dd4bab65fbbff86b790db46ebde3134b214c91"
+  },
+  {
+    "file": "conditional_metrics.csv",
+    "source": "final_closeout_review/figures/inputs/closeout_conditional_metrics.csv",
+    "sha256": "b5dc0bebddff050022b6877cfe2435660c3433570c417ed65b72dc56afec8b31"
+  },
+  {
+    "file": "conditional_gains.csv",
+    "source": "final_closeout_review/results/closeout_v1/atlas/paired_increments.csv",
+    "sha256": "94fe3231d5d2ece69c136d3b63a3a21ff336e264e282065a61305bd215d31076"
+  },
+  {
+    "file": "contrasts.csv",
+    "source": "final_closeout_review/figures/inputs/closeout_signed_magnitude_contrasts.csv",
+    "sha256": "7d9c088a708dfecf8816943b8d7d3b69b41da66c48bb199821f265df9a960022"
+  },
+  {
+    "file": "fold_gains.csv",
+    "source": "final_closeout_review/results/closeout_v1/atlas/fold_increments.csv",
+    "sha256": "509074b4e89dfc0c487b83bf70f09c34d1371a0449cd79d30ca8451dfd82e923"
+  },
+  {
+    "file": "compact_atlas.csv",
+    "source": "final_closeout_review/results/closeout_v1/atlas/compact_environment_atlas.csv",
+    "sha256": "e5cef139d906bf5420221eccb9497d72ef954518684c45bad0cc1d546f62c428"
+  },
+  {
+    "file": "calibration_curvature.csv",
+    "source": "final_closeout_review/figures/inputs/calibration_curvature.csv",
+    "sha256": "d613d2cfda0dfc81102b268f9ff746a661dcb2f88d79c13541ff3defff1a0b28"
+  },
+  {
+    "file": "nonmetal_changes.csv",
+    "source": "final_closeout_review/results/closeout_v1/nonmetal/change_summary.csv",
+    "sha256": "a4eb5f8ac62547c9cad3e92024867ad80a73f68883ad2df5359df5e80208cf2f"
+  },
+  {
+    "file": "nonmetal_edges.csv",
+    "source": "final_closeout_review/results/closeout_v1/nonmetal/physical_edge_changes.csv",
+    "sha256": "22639268d8784f831e0b6de30171500e28040763edd71f1d2e2890d0bb6c4833"
+  },
+  {
+    "file": "nonmetal_contrasts.csv",
+    "source": "final_closeout_review/results/closeout_v1/nonmetal/common_pair_contrasts.csv",
+    "sha256": "187cd4c2cf83b9e6166a8e8b1d4d0fc525907da748ff86091de26efda984e51d"
+  },
+  {
+    "file": "metal_graph_sensitivity.csv",
+    "source": "final_closeout_review/results/metal_control/graph_sensitivity.csv",
+    "sha256": "a65644f1673179c179cf96724181d0522409ab1d69c9ca85a5e36089ebda4273"
+  },
+  {
+    "file": "original_graph_sensitivity.csv",
+    "source": "final_closeout_review/results/sensitivity/heldout_graph_metrics.csv",
+    "sha256": "4e7f2c08f44f0197a9bafbe0015a0b0860290786e0992525df37615db9241871"
+  }
+]

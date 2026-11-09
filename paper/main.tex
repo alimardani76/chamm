@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{caption}
+\usepackage[section]{placeins}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\newcommand{\charge}{\ensuremath{e}}
+\title{Local Chemical Environments Explain Charge-Definition Disagreement in Metal--Organic Frameworks}
+\author{Hosein Alimardani$^{1,\dagger}$, Shayan Abaei$^{2,\dagger}$, and Mehrdad Asgari$^{3,*}$\\[5pt]
+\small $^1$Faculty of Engineering, University of Tehran, Tehran, Iran\\
+\small $^2$School of Chemical Engineering, University of Tehran, Tehran, Iran\\
+\small $^3$Lucy Cavendish College, University of Cambridge, Cambridge CB3 0BU, UK\\
+\small $^\dagger$Equal contribution. $^*$Correspondence: ma2000@cam.ac.uk}
+\date{}
+\begin{document}
+\maketitle
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/conclusions}
+\section*{Data and code availability}
+The QMOF source is pinned to Figshare article 13147324, version 18.\cite{QMOFv18} Manuscript source, all ten figure generators and exact inputs, analysis code, compact numerical evidence, and cohort/split manifests are available at \url{https://github.com/alimardani76/chamm}, release \href{https://github.com/alimardani76/chamm/releases/tag/v1.0.0}{v1.0.0}. The release deposits the completed production inputs, saved predictions, and accepted graph/structure caches with SHA256 verification and executable retrieval instructions. Figure reproduction and compact numerical reconstruction have been checked independently of model fitting. Full model and descriptor inputs are supplied; an end-to-end refit is not claimed as a release validation. The Overleaf archive contains the self-contained manuscript sources and figure masters.
+\section*{Conflicts of interest}
+The authors declare no conflicts of interest.
+\section*{Supporting information}
+Additional calibration diagnostics; model settings and sampling rules; validation and support definitions; atom-weighted and structure-balanced errors; fold consistency; the environment atlas; and the finite graph-sensitivity analyses.
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\end{document}

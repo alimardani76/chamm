@@ -1,0 +1,82 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Rosen et~al.(2021)Rosen, Iyer, Ray, Yao, Aspuru-Guzik, Gagliardi,
+  Notestein, and Snurr]{Rosen2021}
+Andrew~S. Rosen, S.~M. Iyer, D.~Ray, Zhenpeng Yao, Al{\'a}n Aspuru-Guzik, Laura
+  Gagliardi, Justin~M. Notestein, and Randall~Q. Snurr.
+\newblock Machine learning the quantum-chemical properties of metal--organic
+  frameworks for accelerated materials discovery.
+\newblock \emph{Matter}, 4\penalty0 (5):\penalty0 1578--1597, 2021.
+\newblock \doi{10.1016/j.matt.2021.02.015}.
+
+\bibitem[Rosen et~al.(2022)Rosen, Fung, Huck, O'Donnell, Horton, Truhlar,
+  Persson, Notestein, and Snurr]{Rosen2022}
+Andrew~S. Rosen, Victor Fung, Patrick Huck, Cody~T. O'Donnell, Matthew~K.
+  Horton, Donald~G. Truhlar, Kristin~A. Persson, Justin~M. Notestein, and
+  Randall~Q. Snurr.
+\newblock High-throughput predictions of metal--organic framework electronic
+  properties: theoretical challenges, graph neural networks, and data
+  exploration.
+\newblock \emph{npj Computational Materials}, 8:\penalty0 112, 2022.
+\newblock \doi{10.1038/s41524-022-00796-6}.
+
+\bibitem[Rosen et~al.()]{QMOFv18}
+Andrew~S. Rosen et~al.
+\newblock {QMOF} database, version 18.
+\newblock Figshare.
+\newblock URL
+  \url{https://figshare.com/articles/dataset/QMOF_Database/13147324/18}.
+\newblock Pinned source used in this work; article 13147324, version 18,
+  archive file 59573735.
+
+\bibitem[Ong et~al.(2013)Ong, Richards, Jain, Hautier, Kocher, Cholia, Gunter,
+  Chevrier, Persson, and Ceder]{Ong2013}
+Shyue~Ping Ong, William~Davidson Richards, Anubhav Jain, Geoffroy Hautier,
+  Michael Kocher, Shreyas Cholia, Dan Gunter, Vincent~L. Chevrier, Kristin~A.
+  Persson, and Gerbrand Ceder.
+\newblock Python materials genomics (pymatgen): A robust, open-source python
+  library for materials analysis.
+\newblock \emph{Computational Materials Science}, 68:\penalty0 314--319, 2013.
+\newblock \doi{10.1016/j.commatsci.2012.10.028}.
+
+\bibitem[Larsen et~al.(2017)Larsen, Mortensen, Blomqvist, Castelli,
+  Christensen, et~al.]{Larsen2017}
+Ask~Hjorth Larsen, Jens~J{\o}rgen Mortensen, Jakob Blomqvist, Ivano~E.
+  Castelli, Rune Christensen, et~al.
+\newblock The atomic simulation environment---a {Python} library for working
+  with atoms.
+\newblock \emph{Journal of Physics: Condensed Matter}, 29:\penalty0 273002,
+  2017.
+\newblock \doi{10.1088/1361-648X/aa680e}.
+
+\bibitem[Zimmermann and Jain(2020)]{Zimmermann2020}
+Nils E.~R. Zimmermann and Anubhav Jain.
+\newblock Local structure order parameters and site fingerprints for
+  quantification of coordination environment and crystal structure similarity.
+\newblock \emph{RSC Advances}, 10:\penalty0 6063--6081, 2020.
+\newblock \doi{10.1039/C9RA07755C}.
+
+\bibitem[Chen and Guestrin(2016)]{Chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock {XGBoost}: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794, 2016.
+\newblock \doi{10.1145/2939672.2939785}.
+
+\bibitem[Bucior et~al.(2019)Bucior, Rosen, Haranczyk, Yao, Ziebel, Farha, Hupp,
+  Siepmann, Aspuru-Guzik, and Snurr]{Bucior2019}
+Benjamin~J. Bucior, Andrew~S. Rosen, Maciej Haranczyk, Zhenpeng Yao, Michael~E.
+  Ziebel, Omar~K. Farha, Joseph~T. Hupp, J.~Ilja Siepmann, Al{\'a}n
+  Aspuru-Guzik, and Randall~Q. Snurr.
+\newblock Identification schemes for metal--organic frameworks to enable rapid
+  search and cheminformatics analysis.
+\newblock \emph{Crystal Growth \& Design}, 19\penalty0 (11):\penalty0
+  6682--6697, 2019.
+\newblock \doi{10.1021/acs.cgd.9b01050}.
+
+\end{thebibliography}

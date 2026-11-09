@@ -1,0 +1,20 @@
+name: Reproduce figures and compact evidence
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  compact:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: reproduce/requirements-figures.txt
+      - run: python -m pip install -r reproduce/requirements-figures.txt
+      - run: python figures/source/make_figures.py
+      - run: python figures/source/make_tables.py
+      - run: python figures/source/validate_package.py
+      - run: python code/25_closeout_atlas.py --verify-compact

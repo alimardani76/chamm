@@ -1,0 +1,8 @@
+{
+  "grouping": "connected components of equal non-null MOFkey or equal reduced formula; operational blocking, not chemical-family ground truth",
+  "blocks": 8347,
+  "largest_block": 13,
+  "structures_in_repeated_blocks": 1414,
+  "blocks_crossing_original_folds": 479,
+  "structures_in_crossing_blocks": 1189
+}

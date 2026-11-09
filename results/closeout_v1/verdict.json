@@ -1,0 +1,5 @@
+{
+  "verdict": "Restricted positive: local chemical information survives tested charge conditioning and identifier/composition blocking; central-metal and magnitude claims remain qualified",
+  "scope": "finite specified comparisons; no model/graph search after outcomes",
+  "stopped": true
+}

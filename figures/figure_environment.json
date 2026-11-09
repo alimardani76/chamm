@@ -1,0 +1,7 @@
+{
+  "python": "3.13.13",
+  "numpy": "1.26.4",
+  "pandas": "2.3.2",
+  "matplotlib": "3.10.5",
+  "note": "Original production runtime. Final release figures are rebuilt and verified in the independently installed environment recorded in reproduce/figure_environment_verified.json."
+}

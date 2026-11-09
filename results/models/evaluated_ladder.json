@@ -1,0 +1,12 @@
+{
+  "models": [
+    "affine_ridge_first",
+    "offset_tree_first",
+    "offset_tree_second",
+    "affine_tree_first",
+    "affine_tree_second",
+    "nonlinear_tree_first",
+    "nonlinear_tree_second"
+  ],
+  "resource_choice": "One first-shell affine-residual Ridge baseline; tree ladders for all three controls. Compatible first block retained; unused extra Ridge fits not included in scientific comparisons."
+}

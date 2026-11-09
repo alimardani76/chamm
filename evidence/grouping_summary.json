@@ -1,0 +1,21 @@
+{
+  "source": "qmof_database/qmof.json in pinned existing archive; reviewer join exact formulas and MOFkeys matched for all cohort IDs",
+  "records": 9171,
+  "mofkey_records": 5408,
+  "distinct_mofkeys": 5114,
+  "formula_records": 9171,
+  "distinct_formulas": 8468,
+  "components": 8347,
+  "largest_component": 13,
+  "nonsingleton_records": 1414,
+  "records_components_crossing_old_folds": 1189,
+  "fold_counts": [
+    1835,
+    1834,
+    1834,
+    1834,
+    1834
+  ],
+  "grouping": "connected components: identical nonempty exact MOFkey OR identical exact source reduced formula; no topology inference",
+  "fold_rule": "descending component size; SHA256(ChaMM-closeout-blocks:component) tie order; assign least populated fold, fold-index tie break"
+}

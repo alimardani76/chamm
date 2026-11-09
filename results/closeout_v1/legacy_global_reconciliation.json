@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "aggregate_rows": 90,
+  "atom_targets_checked": 4261596,
+  "max_target_error": 0.0,
+  "max_metric_error": 9.71445146547012e-17,
+  "note": "one local reconciliation of global atom OOF targets/folds and saved aggregate MAEs; reviewer bootstrap/graph audits not repeated"
+}

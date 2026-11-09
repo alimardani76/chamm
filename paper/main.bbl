@@ -1,0 +1,150 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Sladekova et~al.(2020)Sladekova, Campbell, Grant, Fletcher, Gomes, and
+  Jorge]{Sladekova2020}
+Kristina Sladekova, Christopher Campbell, Calum Grant, Ashleigh~J. Fletcher,
+  Jos{\'e} R.~B. Gomes, and Miguel Jorge.
+\newblock The effect of atomic point charges on adsorption isotherms of {CO2}
+  and water in metal organic frameworks.
+\newblock \emph{Adsorption}, 26:\penalty0 663--685, 2020.
+\newblock \doi{10.1007/s10450-019-00187-2}.
+
+\bibitem[Sladekova et~al.(2021)Sladekova, Campbell, Grant, Fletcher, Gomes, and
+  Jorge]{SladekovaCorrection2021}
+Kristina Sladekova, Christopher Campbell, Calum Grant, Ashleigh~J. Fletcher,
+  Jos{\'e} R.~B. Gomes, and Miguel Jorge.
+\newblock Correction to: The effect of atomic point charges on adsorption
+  isotherms of {CO2} and water in metal organic frameworks.
+\newblock \emph{Adsorption}, 27:\penalty0 995--1000, 2021.
+\newblock \doi{10.1007/s10450-021-00301-3}.
+
+\bibitem[Tang et~al.(2009)Tang, Sanville, and Henkelman]{Tang2009}
+Wenjie Tang, Edward Sanville, and Graeme Henkelman.
+\newblock A grid-based {Bader} analysis algorithm without lattice bias.
+\newblock \emph{Journal of Physics: Condensed Matter}, 21:\penalty0 084204,
+  2009.
+\newblock \doi{10.1088/0953-8984/21/8/084204}.
+
+\bibitem[Manz and Limas(2016)]{Manz2016}
+Thomas~A. Manz and Nidia~Gabaldon Limas.
+\newblock Introducing {DDEC6} atomic population analysis: part 1. charge
+  partitioning theory and methodology.
+\newblock \emph{RSC Advances}, 6:\penalty0 47771--47801, 2016.
+\newblock \doi{10.1039/C6RA04656H}.
+
+\bibitem[Manz and Limas(2022)]{ManzCorrection2022}
+Thomas~A. Manz and Nidia~Gabaldon Limas.
+\newblock Correction: Introducing {DDEC6} atomic population analysis: part 1.
+  charge partitioning theory and methodology.
+\newblock \emph{RSC Advances}, 12:\penalty0 14384, 2022.
+\newblock \doi{10.1039/D2RA90050E}.
+
+\bibitem[Marenich et~al.(2012)Marenich, Jerome, Cramer, and
+  Truhlar]{Marenich2012}
+Aleksandr~V. Marenich, Steven~V. Jerome, Christopher~J. Cramer, and Donald~G.
+  Truhlar.
+\newblock Charge model 5: An extension of hirshfeld population analysis for the
+  accurate description of molecular interactions in gaseous and condensed
+  phases.
+\newblock \emph{Journal of Chemical Theory and Computation}, 8\penalty0
+  (2):\penalty0 527--541, 2012.
+\newblock \doi{10.1021/ct200866d}.
+
+\bibitem[Rosen et~al.(2021)Rosen, Iyer, Ray, Yao, Aspuru-Guzik, Gagliardi,
+  Notestein, and Snurr]{Rosen2021}
+Andrew~S. Rosen, S.~M. Iyer, D.~Ray, Zhenpeng Yao, Al{\'a}n Aspuru-Guzik, Laura
+  Gagliardi, Justin~M. Notestein, and Randall~Q. Snurr.
+\newblock Machine learning the quantum-chemical properties of metal--organic
+  frameworks for accelerated materials discovery.
+\newblock \emph{Matter}, 4\penalty0 (5):\penalty0 1578--1597, 2021.
+\newblock \doi{10.1016/j.matt.2021.02.015}.
+
+\bibitem[Rosen et~al.(2022)Rosen, Fung, Huck, O'Donnell, Horton, Truhlar,
+  Persson, Notestein, and Snurr]{Rosen2022}
+Andrew~S. Rosen, Victor Fung, Patrick Huck, Cody~T. O'Donnell, Matthew~K.
+  Horton, Donald~G. Truhlar, Kristin~A. Persson, Justin~M. Notestein, and
+  Randall~Q. Snurr.
+\newblock High-throughput predictions of metal--organic framework electronic
+  properties: theoretical challenges, graph neural networks, and data
+  exploration.
+\newblock \emph{npj Computational Materials}, 8:\penalty0 112, 2022.
+\newblock \doi{10.1038/s41524-022-00796-6}.
+
+\bibitem[Zhao and Chung(2024{\natexlab{a}})]{Zhao2024}
+Guobin Zhao and Yongchul~G. Chung.
+\newblock {PACMAN}: A robust partial atomic charge predicter for nanoporous
+  materials based on crystal graph convolution networks.
+\newblock \emph{Journal of Chemical Theory and Computation}, 20\penalty0
+  (12):\penalty0 5368--5380, 2024{\natexlab{a}}.
+\newblock \doi{10.1021/acs.jctc.4c00434}.
+
+\bibitem[Zhao and Chung(2024{\natexlab{b}})]{Zhao2024Correction}
+Guobin Zhao and Yongchul~G. Chung.
+\newblock Correction to ``{PACMAN}: A robust partial atomic charge predicter
+  for nanoporous materials based on crystal graph convolution networks''.
+\newblock \emph{Journal of Chemical Theory and Computation},
+  2024{\natexlab{b}}.
+\newblock \doi{10.1021/acs.jctc.4c00976}.
+\newblock Published 11 August 2024; publisher article identifier
+  acs.jctc.4c00976.
+
+\bibitem[Rosen et~al.()]{QMOFv18}
+Andrew~S. Rosen et~al.
+\newblock {QMOF} database, version 18.
+\newblock Figshare.
+\newblock URL
+  \url{https://figshare.com/articles/dataset/QMOF_Database/13147324/18}.
+\newblock Pinned source used in this work; article 13147324, version 18,
+  archive file 59573735.
+
+\bibitem[Ong et~al.(2013)Ong, Richards, Jain, Hautier, Kocher, Cholia, Gunter,
+  Chevrier, Persson, and Ceder]{Ong2013}
+Shyue~Ping Ong, William~Davidson Richards, Anubhav Jain, Geoffroy Hautier,
+  Michael Kocher, Shreyas Cholia, Dan Gunter, Vincent~L. Chevrier, Kristin~A.
+  Persson, and Gerbrand Ceder.
+\newblock Python materials genomics (pymatgen): A robust, open-source python
+  library for materials analysis.
+\newblock \emph{Computational Materials Science}, 68:\penalty0 314--319, 2013.
+\newblock \doi{10.1016/j.commatsci.2012.10.028}.
+
+\bibitem[Larsen et~al.(2017)Larsen, Mortensen, Blomqvist, Castelli,
+  Christensen, et~al.]{Larsen2017}
+Ask~Hjorth Larsen, Jens~J{\o}rgen Mortensen, Jakob Blomqvist, Ivano~E.
+  Castelli, Rune Christensen, et~al.
+\newblock The atomic simulation environment---a {Python} library for working
+  with atoms.
+\newblock \emph{Journal of Physics: Condensed Matter}, 29:\penalty0 273002,
+  2017.
+\newblock \doi{10.1088/1361-648X/aa680e}.
+
+\bibitem[Zimmermann and Jain(2020)]{Zimmermann2020}
+Nils E.~R. Zimmermann and Anubhav Jain.
+\newblock Local structure order parameters and site fingerprints for
+  quantification of coordination environment and crystal structure similarity.
+\newblock \emph{RSC Advances}, 10:\penalty0 6063--6081, 2020.
+\newblock \doi{10.1039/C9RA07755C}.
+
+\bibitem[Chen and Guestrin(2016)]{Chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock {XGBoost}: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794, 2016.
+\newblock \doi{10.1145/2939672.2939785}.
+
+\bibitem[Bucior et~al.(2019)Bucior, Rosen, Haranczyk, Yao, Ziebel, Farha, Hupp,
+  Siepmann, Aspuru-Guzik, and Snurr]{Bucior2019}
+Benjamin~J. Bucior, Andrew~S. Rosen, Maciej Haranczyk, Zhenpeng Yao, Michael~E.
+  Ziebel, Omar~K. Farha, Joseph~T. Hupp, J.~Ilja Siepmann, Al{\'a}n
+  Aspuru-Guzik, and Randall~Q. Snurr.
+\newblock Identification schemes for metal--organic frameworks to enable rapid
+  search and cheminformatics analysis.
+\newblock \emph{Crystal Growth \& Design}, 19\penalty0 (11):\penalty0
+  6682--6697, 2019.
+\newblock \doi{10.1021/acs.cgd.9b01050}.
+
+\end{thebibliography}
